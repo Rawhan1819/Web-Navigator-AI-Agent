@@ -1,66 +1,11 @@
- ┌──────────────┐
- │   User       │
- │ (Frontend)   │
- │ Command Input│
- └──────┬───────┘
-        │
-        ▼
- ┌────────────────────────┐
- │ React Frontend (App.jsx)│
- │ - Sends command via     │
- │   POST /execute         │
- │ - Shows results cards   │
- └─────────┬──────────────┘
-           │
-           ▼
- ┌─────────────────────────┐
- │  Flask Backend (main.py)│
- │ - Receives command      │
- │ - Calls DuckDuckGo      │
- │ - Fetches URLs + Snippets│
- │ - Calls Playwright for  │
- │   screenshots/thumbnails│
- └─────────┬───────────────┘
-           │
-           ▼
- ┌─────────────────────────┐
- │  LLM Agent (LLMAgent)  │
- │ - Plan steps for browser│
- │   actions from command  │
- └─────────┬───────────────┘
-           │
-           ▼
- ┌─────────────────────────┐
- │ Web Agent (WebAgent)    │
- │ - Executes plan in      │
- │   headless browser      │
- │ - Extracts text, clicks │
- │ - Takes screenshots     │
- └─────────┬───────────────┘
-           │
-           ▼
- ┌─────────────────────────┐
- │ Backend Response JSON   │
- │ - List of results:      │
- │   title, link, snippet, │
- │   screenshot, thumbnail │
- └─────────┬───────────────┘
-           │
-           ▼
- ┌─────────────────────────┐
- │ Frontend Displays Cards │
- │ - Thumbnail image       │
- │ - Title + clickable link│
- │ - Snippet preview       │
- └─────────────────────────┘
-# ðŸŒ Web Navigator AI Agent
+# 🌐 Web Navigator AI Agent
 
-## ðŸ“Œ Overview
+## 📌 Overview
 The **Web Navigator AI Agent** is a prototype system that takes natural language instructions and autonomously drives the web using:
-- ðŸ§  Local LLM (via Ollama)
-- ðŸŒ Browser automation (Playwright)
-- âš¡ Python backend (Flask)
-- ðŸŽ¨ React frontend
+- 🧠 Local LLM (via Ollama)
+- 🌍 Browser automation (Playwright)
+- ⚡ Python backend (Flask)
+- 🎨 React frontend
 
 Example command:
 > "Search for laptops under 50k and list top 5"
@@ -72,7 +17,7 @@ The agent will:
 
 ---
 
-## ðŸš€ Features
+## 🚀 Features
 - Instruction parsing via local LLM.
 - Browser automation with Playwright.
 - Structured results with screenshots.
@@ -81,7 +26,7 @@ The agent will:
 
 ---
 
-## ðŸ› ï¸ Tech Stack
+## 🛠️ Tech Stack
 - **Frontend:** React + Vite
 - **Backend:** Flask + Python
 - **Automation:** Playwright
@@ -90,6 +35,12 @@ The agent will:
 
 ---
 
-## ðŸ“‚ Project Structure
-
-# Web-Navigator-AI-Agent
+## 📂 Project Structure
+Web Navigator AI Agent/
+├── backend/ # Flask + Playwright backend
+├── frontend/ # React frontend
+├── .env.example # Example environment variables
+├── .gitignore
+├── README.md
+├── CONTRIBUTING.md
+└── LICENSE
