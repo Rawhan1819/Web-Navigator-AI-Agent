@@ -24,35 +24,41 @@ The **Web Navigator AI Agent** achieves this by combining:
 
 We aim to build a **fully local AI agent** that takes natural language commands and performs web tasks autonomously.  
 
-### Workflow
+## 💡 Workflow
 
-   ![Workflow Diagram](mermaid-ai-diagram-2025-09-27-102903.png)
+The following diagram shows how the **Web Navigator AI Agent** processes a user instruction:
 
+<a href="mermaid-ai-diagram-2025-09-27-102903.png">
+  <img src="mermaid-ai-diagram-2025-09-27-102903.png" alt="Workflow Diagram" width="600"/>
+</a>
 
-**Prototype Phases:**
+<details>
+<summary>📋 Prototype Phases</summary>
 
-**Instruction Parsing**: Local LLaMA 3.2 7B interprets commands.
+1. **Instruction Parsing:** Local LLaMA 3.2 7B interprets commands.  
+2. **Browser Automation:** Playwright executes actions in headless or VM browser.  
+3. **Task Execution:** Supports multi-step reasoning & error handling.  
+4. **Output:** Structured JSON/CSV results, optional screenshots.  
+5. **User Interaction:** React GUI + optional voice commands.
 
-**Browser Automation**: Playwright executes actions in headless or VM browser.
+</details>
 
-**Task Execution**: Supports multi-step reasoning & error handling.
+---
 
-**Output**: Structured JSON/CSV results, optional screenshots.
+### ✅ Features in this workflow
 
-**User Interaction**: React GUI + optional voice commands.
+| Feature              | Description                                | Status |
+| -------------------- | ------------------------------------------ | ------ |
+| Instruction Parsing  | Understands natural language via local LLM | ✅     |
+| Browser Automation   | Search, click, form fill, scrape           | ✅     |
+| Multi-step Reasoning | Execute chained commands intelligently     | ⚡      |
+| Task Memory          | Remembers previous instructions            | ⚡      |
+| Error Handling       | Retry and fallback strategies              | ⚡      |
+| Structured Output    | JSON/CSV with optional screenshots         | ✅     |
+| GUI Interface        | React web app for interaction              | ✅     |
+| Voice Input          | Optional speech-to-command                 | ⚡      |
 
-| **Feature**          | **Description**                            |**Status**|
-| -------------------- | ------------------------------------------ | ------   |
-| Instruction Parsing  | Understands natural language via local LLM | ✅       |
-| Browser Automation   | Search, click, form fill, scrape           | ✅       |
-| Multi-step Reasoning | Execute chained commands intelligently     | ⚡        |
-| Task Memory          | Remembers previous instructions            | ⚡        |
-| Error Handling       | Retry and fallback strategies              | ⚡        |
-| Structured Output    | JSON/CSV with optional screenshots         | ✅       |
-| GUI Interface        | React web app for interaction              | ✅       |
-| Voice Input          | Optional speech-to-command                 | ⚡        |
-
-⚡ Means future implementation planned
+> ⚡ Means future implementation planned
 
 **🛠️ Tech Stack**
 
@@ -89,9 +95,6 @@ Integrating local databases for enhanced memory
 Cross-platform desktop version
 
 **⚡ Getting Started**
-
-# Clone Repo
-git clone https://github.com/Rawhan1819/Web-Navigator-AI-Agent.git
 
 # Backend
 cd backend
