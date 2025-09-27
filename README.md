@@ -26,7 +26,7 @@ We aim to build a **fully local AI agent** that takes natural language commands 
 
 ### Workflow
 
-   /home/adnim1/Downloads/mermaid-ai-diagram-2025-09-27-102903.png
+   ![alt text](mermaid-ai-diagram-2025-09-27-102903.png)
 
 **Prototype Phases:**
 
