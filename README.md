@@ -26,7 +26,8 @@ We aim to build a **fully local AI agent** that takes natural language commands 
 
 ### Workflow
 
-   ![Workflow Diagram](assets/mermaid-ai-diagram-2025-09-27-102903.png)
+   ![Workflow Diagram](mermaid-ai-diagram-2025-09-27-102903.png)
+
 
 **Prototype Phases:**
 
