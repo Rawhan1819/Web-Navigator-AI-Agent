@@ -26,40 +26,34 @@ We aim to build a **fully local AI agent** that takes natural language commands 
 
 ### Workflow
 
-```mermaid
-flowchart LR
-    A[User Input: "Search laptops under 50k"] --> B[Local LLM: Parse & Plan Steps]
-    B --> C[Playwright: Automate Browser Actions]
-    C --> D[Data Extraction: Titles, Links, Snippets, Screenshots]
-    D --> E[Frontend: Display Structured Results]
+   /home/adnim1/Downloads/mermaid-ai-diagram-2025-09-27-102903.png
 
-Prototype Phases:
+**Prototype Phases:**
 
-Instruction Parsing: Local LLaMA 3.2 7B interprets commands.
+**Instruction Parsing**: Local LLaMA 3.2 7B interprets commands.
 
-Browser Automation: Playwright executes actions in headless or VM browser.
+**Browser Automation**: Playwright executes actions in headless or VM browser.
 
-Task Execution: Supports multi-step reasoning & error handling.
+**Task Execution**: Supports multi-step reasoning & error handling.
 
-Output: Structured JSON/CSV results, optional screenshots.
+**Output**: Structured JSON/CSV results, optional screenshots.
 
-User Interaction: React GUI + optional voice commands.
+**User Interaction**: React GUI + optional voice commands.
 
-| Feature              | Description                                | Status |
-| -------------------- | ------------------------------------------ | ------ |
-| Instruction Parsing  | Understands natural language via local LLM | ✅      |
-| Browser Automation   | Search, click, form fill, scrape           | ✅      |
-| Multi-step Reasoning | Execute chained commands intelligently     | ⚡      |
-| Task Memory          | Remembers previous instructions            | ⚡      |
-| Error Handling       | Retry and fallback strategies              | ⚡      |
-| Structured Output    | JSON/CSV with optional screenshots         | ✅      |
-| GUI Interface        | React web app for interaction              | ✅      |
-| Voice Input          | Optional speech-to-command                 | ⚡      |
+| **Feature**          | **Description**                            |**Status**|
+| -------------------- | ------------------------------------------ | ------   |
+| Instruction Parsing  | Understands natural language via local LLM | ✅       |
+| Browser Automation   | Search, click, form fill, scrape           | ✅       |
+| Multi-step Reasoning | Execute chained commands intelligently     | ⚡        |
+| Task Memory          | Remembers previous instructions            | ⚡        |
+| Error Handling       | Retry and fallback strategies              | ⚡        |
+| Structured Output    | JSON/CSV with optional screenshots         | ✅       |
+| GUI Interface        | React web app for interaction              | ✅       |
+| Voice Input          | Optional speech-to-command                 | ⚡        |
 
 ⚡ Means future implementation planned
 
-🛠️ Tech Stack
-```yaml
+**🛠️ Tech Stack**
 
 frontend:
   framework: React + Vite
@@ -73,7 +67,7 @@ llm:
 interface: REST API + Web UI
 deployment: Local, no cloud dependency
 
-| Member       | Role           | Contribution                                              |
+| **Member**   | **Role**       | **Contribution**                                          |
 | ------------ | -------------- | --------------------------------------------------------- |
 | Rawhan Ramzi | Project Lead   | Defined vision, LLM orchestration, architecture & roadmap |
 | Sumanth      | Backend Dev    | Flask API, Playwright integration, data extraction        |
@@ -81,7 +75,7 @@ deployment: Local, no cloud dependency
 | Rajesh       | LLM Specialist | Configured and fine-tuned local LLaMA model               |
 
 
-📈 Vision
+**📈 Vision**
 
 The Web Navigator AI Agent is not just a prototype; it’s a next-generation personal web assistant. Future goals include:
 
@@ -93,7 +87,7 @@ Integrating local databases for enhanced memory
 
 Cross-platform desktop version
 
-⚡ Getting Started
+**⚡ Getting Started**
 
 # Clone Repo
 git clone https://github.com/Rawhan1819/Web-Navigator-AI-Agent.git
