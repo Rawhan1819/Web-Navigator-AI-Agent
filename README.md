@@ -118,14 +118,17 @@ python main.py
 
 
 🎨 Frontend Setup
+```bash
 cd frontend
 npm install
 npm run dev
 
 🎥 Demo Video
+```bash
 👉 Watch the demo here
 
 📂 Repository Structure
+```bash
 Web-Navigator-AI-Agent/
 │── backend/        # Flask + Playwright backend
 │── frontend/       # React frontend
