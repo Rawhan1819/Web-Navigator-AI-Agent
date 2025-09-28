@@ -10,6 +10,7 @@
 
 ---
 
+
 ## 📌 Problem Statement
 In today’s digital world, humans interact with hundreds of websites daily. Imagine an intelligent assistant that can autonomously browse, extract data, and perform web tasks — **without depending on cloud-based LLMs**.
 
@@ -87,10 +88,10 @@ The Web Navigator AI Agent processes a user instruction as follows:
 
 | Member        | Role              | Contribution |
 |---------------|------------------|--------------|
-| **Rawhan Ramzi** | Project Lead / Architect | Vision, LLM orchestration, architecture & roadmap |
+| **Rawhan Ramzi** | Project Lead / LLM Specialist  | Vision, LLM orchestration, architecture & roadmap |
 | **Sumanth**      | Backend Developer | Flask API, Playwright integration, data extraction |
 | **Harish**       | Frontend Developer | React UI, structured result display |
-| **Rajesh**       | LLM Specialist | Configured and fine-tuned local LLaMA model |
+| **Rajesh**       | Architect / Frontend Developer | Configured and fine-tuned local LLaMA model |
 
 ---
 
@@ -115,30 +116,33 @@ python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 python main.py
-
----
+```
 🎨 Frontend Setup
-
 Run the following commands to set up and start the frontend:
+```bash
 cd frontend
 npm install
 npm run dev
+```
 
-🎥 Demo Video
+## 🎥 Demo Video
 
 Watch the demo of the Web Navigator AI Agent here:
+
 👉 Watch the demo here
 
-📂 Repository Structure
+## 📂 Repository Structure
 
 The repository is organized as follows:
-
+```bash 
 Web-Navigator-AI-Agent/
-│── backend/        # Flask + Playwright backend
-│── frontend/       # React frontend
-│── docs/           # Diagrams, screenshots, architecture
-│── README.md
-│── LICENSE
-│── CONTRIBUTING.md
-│── .env.example
-│── .gitignore
+├── backend/        # Flask + Playwright backend
+├── frontend/       # React frontend
+├── docs/           # Diagrams, screenshots, architecture
+├── README.md
+├── LICENSE
+├── CONTRIBUTING.md
+├── .env.example
+└── .gitignore
+```
+
