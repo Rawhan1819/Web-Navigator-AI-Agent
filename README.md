@@ -59,16 +59,16 @@ The Web Navigator AI Agent processes a user instruction as follows:
 
 ## ✅ Current Features
 
-| Feature               | Description                                | Status    |
-|---------------------- |------------------------------------------- |---------- |
-| Instruction Parsing   | Understands natural language via local LLM | ✅        |
-| Browser Automation    | Search, click, form fill, scrape           | ✅        |
-| Multi-step Reasoning  | Execute chained commands intelligently     | ⚡ Planned |
-| Task Memory           | Remembers previous instructions            | ⚡ Planned |
-| Error Handling        | Retry and fallback strategies              | ⚡ Planned |
-| Structured Output     | JSON/CSV with optional screenshots         | ✅        |
-| GUI Interface         | React web app for interaction              | ✅        |
-| Voice Input           | Speech-to-command capability               | ⚡ Planned |
+| Feature              | Description                               | Status |
+|----------------------|-------------------------------------------|--------|
+| Instruction Parsing   | Understands natural language via local LLM | ✅ |
+| Browser Automation    | Search, click, form fill, scrape          | ✅ |
+| Multi-step Reasoning  | Execute chained commands intelligently    | ⚡ Planned |
+| Task Memory           | Remembers previous instructions           | ⚡ Planned |
+| Error Handling        | Retry and fallback strategies             | ⚡ Planned |
+| Structured Output     | JSON/CSV with optional screenshots        | ✅ |
+| GUI Interface         | React web app for interaction             | ✅ |
+| Voice Input           | Speech-to-command capability              | ⚡ Planned |
 
 ---
 
@@ -85,12 +85,12 @@ The Web Navigator AI Agent processes a user instruction as follows:
 
 ## 👥 Team Contributions
 
-| Member           | Role                       | Contribution |
-|---------------   |------------------          |--------------|
-| **Rawhan Ramzi** | Project Lead/LLM Specialist| Vision, LLM orchestration, architecture & roadmap |
-| **Sumanth**      | Backend Developer          | Flask API, Playwright integration, data extraction |
-| **Harish**       | Frontend Developer         | React UI, structured result display |
-| **Rajesh**       | Architect                  | Configured and fine-tuned local LLaMA model |
+| Member        | Role              | Contribution |
+|---------------|------------------|--------------|
+| **Rawhan Ramzi** | Project Lead / Architect | Vision, LLM orchestration, architecture & roadmap |
+| **Sumanth**      | Backend Developer | Flask API, Playwright integration, data extraction |
+| **Harish**       | Frontend Developer | React UI, structured result display |
+| **Rajesh**       | LLM Specialist | Configured and fine-tuned local LLaMA model |
 
 ---
 
@@ -116,19 +116,23 @@ source venv/bin/activate
 pip install -r requirements.txt
 python main.py
 
-
+---
 🎨 Frontend Setup
-```bash
+
+Run the following commands to set up and start the frontend:
 cd frontend
 npm install
 npm run dev
 
 🎥 Demo Video
-```bash
+
+Watch the demo of the Web Navigator AI Agent here:
 👉 Watch the demo here
 
 📂 Repository Structure
-```bash
+
+The repository is organized as follows:
+
 Web-Navigator-AI-Agent/
 │── backend/        # Flask + Playwright backend
 │── frontend/       # React frontend
