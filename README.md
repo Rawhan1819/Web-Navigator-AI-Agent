@@ -91,7 +91,7 @@ The Web Navigator AI Agent processes a user instruction as follows:
 | **Rawhan Ramzi** | Project Lead / LLM Specialist  | Vision, LLM orchestration, architecture & roadmap |
 | **Sumanth**      | Backend Developer | Flask API, Playwright integration, data extraction |
 | **Harish**       | Frontend Developer | React UI, structured result display |
-| **Rajesh**       | Architect / Frontend Developer | Configured and fine-tuned local LLaMA model |
+| **Rajesh**       | LLM Specialist  / Frontend Developer | Configured and fine-tuned local LLaMA model |
 
 ---
 
@@ -125,9 +125,9 @@ npm install
 npm run dev
 ```
 
-## 🎥 Demo Video
+## 🎥 Video Explanation
 
-Watch the demo of the Web Navigator AI Agent here:
+Watch the Video explanation of the Web Navigator AI Agent here:
 
 👉 [click here](https://drive.google.com/file/d/1HHtUMJBIXakTRT8gCqP4Ruiy4otmqbES/view?usp=sharing)
 
