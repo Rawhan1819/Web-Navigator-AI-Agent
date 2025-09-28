@@ -107,6 +107,8 @@ Future goals include:
 ## ⚡ Getting Started
 
 ### 🔧 Backend Setup
+Run the following commands to set up and start the backend:
+
 ```bash
 cd backend
 python -m venv venv
@@ -114,17 +116,16 @@ source venv/bin/activate
 pip install -r requirements.txt
 python main.py
 
+
 🎨 Frontend Setup
 cd frontend
 npm install
 npm run dev
 
 🎥 Demo Video
-
 👉 Watch the demo here
 
 📂 Repository Structure
-
 Web-Navigator-AI-Agent/
 │── backend/        # Flask + Playwright backend
 │── frontend/       # React frontend
