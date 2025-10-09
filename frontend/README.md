@@ -1,1 +1,0 @@
-instruct npm install then npm run dev (Vite default serves on 5173).
